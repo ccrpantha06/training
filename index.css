@@ -1,0 +1,21 @@
+h2{
+    color:red;
+}
+@media(max-width:600px){
+h2{
+    color:purple;
+}
+}
+.navigation{
+        background-color: bisque;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+}
+#navs{
+    color:white;
+}
+.menu_item{
+    display:flex;
+    gap: 50px;
+}
