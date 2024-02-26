@@ -59,6 +59,7 @@ nav{
     margin: 0% auto;
     display: flex;
     gap: 10px;
+    align-items: center;
    
 }
 .banner_info div {
@@ -68,6 +69,12 @@ nav{
     justify-content: center;
     gap: 10px;
     height: fit-content;
+    align-items: center;
+}
+.learn_text{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
 }
 .learn_button {
     height: fit-content;
@@ -76,4 +83,6 @@ nav{
     color: white;
     padding: 10px 20px;
     border-radius: 20px;
+    font-size: 25px;
+    
 }
