@@ -19,6 +19,7 @@ nav{
     gap: 20
     0px;
     align-items: center;
+    color: azure;
 
 }
 .logo div{
@@ -27,11 +28,11 @@ nav{
 }
 .menu_item{
     display: flex;
-    gap: 7px;
+    gap: 20px;
     align-items: center;
 }
 .menu_item a{
-    color: rgb(0, 0, 0);
+    color: rgb(253, 247, 247);
     text-decoration: none;
 }
 .info{
@@ -42,7 +43,7 @@ nav{
 }
 .info div{
     display: flex;
-    font-size: 12px;
+    font-size: 22px;
 }
 .callbutton{
     background-color: rgb(0, 48, 36);
@@ -95,8 +96,7 @@ nav{
     content: ""!important;
     content: ""!important;
     height: 60vh !important;
-    background-image: url('./edu_ilastration.png.webp');
-    width: 100px !important;
+       width: 100px !important;
     background-size: contain;
     background-repeat: no-repeat;
 }
