@@ -1,13 +1,13 @@
 
 .svg{
    margin: 0px auto;
-    width: 1200px;
-    height: 1000px;
+    width: 800px;
+    height: 100px;
     display: flex;
     justify-content: center;
 }
 .textdata{
-    font-size: 8em;
+    font-size: 2em;
     text-transform: uppercase;
     animation: 10s infinite  alternate animatedStroke;
     

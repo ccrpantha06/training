@@ -13,11 +13,11 @@ nav{
     background-color: #9D4BEB;
     font-size: 24px;
     justify-content: space-around;
+    height: 70px;
 }
 .logo {
     display:flex;
-    gap: 20
-    0px;
+    gap: 20px;
     align-items: center;
     color: azure;
 
@@ -32,7 +32,7 @@ nav{
     align-items: center;
 }
 .menu_item a{
-    color: rgb(253, 247, 247);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 .info{
@@ -100,3 +100,79 @@ nav{
     background-size: contain;
     background-repeat: no-repeat;
 }
+/*circle*/
+.maincircle{
+    width: 70%;
+    padding: 10px 0px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 50% 30%;
+    gap: 10%;
+
+}
+.enroll{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.txt{
+    color: #4C39D3;
+    font-size: 3em;
+}
+.enroll_button{
+    height: max-content;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: aqua;
+}
+.circle{
+    position: relative;
+    color: white;
+    height: 350px;
+    
+
+}
+.one{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdaf8ea1;
+}
+
+.two{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8dcaffa1;
+}
+.three{
+    position: absolute;
+    bottom: -70px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    height: 280px;
+    width: 280px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4fdfd8b4;
+}
+
+
