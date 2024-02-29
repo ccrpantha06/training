@@ -175,4 +175,73 @@ nav{
     background-color: #4fdfd8b4;
 }
 
+.popular_title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    width: 60%;
+    margin: 0px auto;
+
+}
+
+.pt_title {
+    font-weight: 700;
+    font-size: 24px;
+
+}
+.popular_title div{
+    text-align: center;
+}
+
+.popular_filter{
+    width: 60%;
+    margin: 40px auto;
+box-shadow: 0px 3px 4
+px rgb(189, 188, 188);
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-between;
+}
+
+.popular_filter div{
+    font-weight: 700;
+}
+
+.card{
+    padding: 6px;
+box-shadow: 1px 1px 20px lightgray;
+border-radius: 10px;
+}
+
+.card_image{
+    height: 300px;
+    width: 40%;
+}
+.rating{
+    margin-top: 40px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    color: rgb(58, 58, 58);
+}
+.card_title{
+    padding: 6px 0px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.card_category{
+    color: rgb(91, 90, 90);
+    font-size: 16px;
+}
+
+.discount{
+    text-decoration: line-through;
+    color: gray;
+}
 
